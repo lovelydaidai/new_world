@@ -1,0 +1,574 @@
+
+
+header {
+    position: relative;
+    width:1280px;
+    height:59px;
+    margin:0px auto ;
+    background: #FFFFFF;
+}
+
+header a:hover{
+    text-decoration:none;
+}
+
+#header_left{
+    width: 105px;
+    height:31px;
+    margin:10px auto 11px 53px ;
+    float: left;
+}
+
+#header_left span{
+    height:31px;
+    width:31px;
+    background: url("../images/litte_pic.png") 0px 0px;
+    float: left;
+}
+
+#header_left a{
+    font-size:21px;
+    font-weight: 700;
+    float: right;
+}
+
+#header_right{
+    width:533px;
+    height:59px;
+    float: right;
+}
+
+#header_right li{
+    width:64px;
+    height:59px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height:59px;
+    margin-left: 10px;
+}
+
+#header_right .li_table{
+    width:64px;
+    height:59px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height:59px;
+    margin-left: 10px;
+    border-bottom: solid 5px #e74f4d;
+}
+#header_right .li_table a{
+    color: #e74f4d;
+}
+
+#header_right .header_icon{
+    position: absolute;
+    top: 19px;
+    right:100px;
+    width:14px;
+    height:17px;
+    background:url("../images/litte_pic.png") 0px -37px;
+}
+
+#header_right .header_login{
+    float: left;
+    color: #e74f4d;
+    font-weight: 700;
+    line-height: 59px;
+    margin-left: 72px;
+}
+
+#content_1 {
+    position: relative;
+    width:1280px;
+    height:690px;
+    margin:5px auto;
+    background: url("../images/big_bg.png");
+    -webkit-mask-image: url(../images/mask.png);
+}
+
+#con_1{
+    position: absolute;
+    top:230px;
+    left:116px;
+    width:454px;
+    height:50px;
+    background: url("../images/time.png");
+}
+#con_2{
+    position: absolute;
+    top:310px;
+    left:124px;
+    width:295px;
+    height:53px;
+    background: url("../images/新时代.png");
+}
+#con_3{
+    position: absolute;
+    top:429px;
+    left:126px;
+    width:295px;
+    height:53px;
+    background: url("../images/开始体验.png");
+}
+
+#content_2{
+    width: 1280px;
+    height:251px;
+    overflow: hidden;
+    margin:0px auto;
+}
+
+#content_2  li{
+    display: block;
+    position: relative;
+    float: left;
+    width:25%;
+    height:252px;
+}
+
+#content_2  li .sum_pic{
+    position: absolute;
+    top:45px;
+    left:145px;
+    width:42px;
+    height: 40px;
+
+}
+
+#sum_pic1{
+    background: url("../images/litte_pic.png") -31px 0px;
+}
+#sum_pic2{
+    background: url("../images/litte_pic.png") -31px -45px;
+}
+#sum_pic3{
+    background: url("../images/litte_pic.png") -31px -88px;
+}
+#sum_pic4{
+    background: url("../images/litte_pic.png") -31px -130px;
+}
+
+#content_2  li a{
+    text-align: center;
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    top:133px;
+    left:89px;
+    line-height:18px;
+    font-size: 14px;
+}
+
+#content_2  li span{
+    position: absolute;
+    width:2px;
+    height:52px;
+    top:134px;
+    left:324px;
+    background: url("../images/竖条.png");
+}
+
+#content_3{
+    width:1280px;
+    height:361px;
+    margin:0px auto;
+    position: relative;
+    background: url("../images/未标题-1.png");
+}
+
+#content_3 .books{
+    position: absolute;
+    width:91px;
+    height:92px;
+    top:89px;
+    left:595px;
+    background: url("../images/books.png");
+}
+
+#content_3 .about_world{
+    position: absolute;
+    width:826px;
+    height: 53px;
+    top:229px;
+    left:212px;
+    background: url("../images/about_world.png");
+}
+
+#content_4 {
+    width: 1280px;
+    height: 342px;
+    margin: 0px auto;
+    position: relative;
+    background: url("../images/看地图.png") 0px -610px;
+    -webkit-mask-image: url(../images/mask2.png);
+}
+#content_4 .con_4_text p,i{
+    position: absolute;
+}
+
+#content_4 .top{
+    width:231px;
+    height:22px;
+    top:52px;
+    left:501px;
+    background: url("../images/查找城市.png");
+}
+
+#content_4 .bottom{
+    width:337px;
+    height:13px;
+    top:106px;
+    left:449px;
+    background: url("../images/每个城市.png");
+}
+
+#content_4 .con_4_text i{
+    width:31px;
+    height:3px;
+    top:84px;
+    left:601px;
+    background: url("../images/横条.png");
+}
+
+#map_select li{
+    display: block;
+    position: absolute;
+}
+
+#select_1{
+    top:171px;
+    left:126px;
+}
+#select_2{
+    top:171px;
+    left:390px;
+}
+
+#select_3{
+    top:171px;
+    left:665px;
+}
+#select_4{
+    top:171px;
+    left:920px;
+    width:236px;
+    height:36px;
+    background: url("../images/search.png");
+}
+#map_select li dl{
+    float: left;
+    display: block;
+    width:236px;
+    padding-bottom: 11px;
+    background: #e3e3e4;
+}
+#map_select .selecting{
+    border:solid #d99d8d 2px;
+}
+#map_select li dd{
+    width:236px;
+    height:35px;
+    background: url("../images/select.png");
+}
+
+#map_select li dd a{
+    margin:9px 0px 12px 12px;
+    float: left;
+    font-size:12px ;
+    color: #a8aaaa;
+}
+
+#map_select li dt{
+    display: block;
+    margin:0px;
+    width:236px;
+    height:28px;
+    float: left;
+}
+#map_select li .choose{
+    background: #be4e48 url("../images/choose_bg.png");
+}
+#map_select li dt a{
+    margin:5px 0px 8px 32px;
+    float: left;
+}
+
+#content_5{
+    width:1280px;
+    height:606px;
+    position: relative;
+    margin:0px auto;
+    background-color: #f7f7f7;
+}
+
+#con_5_text{
+    position: absolute;
+    height:385px;
+    width:838px;
+    left:221px;
+    bottom: 116px;
+    background: url("../images/con5text.png");
+}
+
+#con_5_pic{
+    position: absolute;
+    width:970px;
+    height:364px;
+    bottom:127px;
+    right:147px;
+    background: url("../images/con5pic.png");
+}
+
+#content_6{
+    width:1280px;
+    height:567px;
+    margin:0px auto;
+}
+
+#content_6_l{
+    float: left;
+    width:851px;
+    height:567px;
+    background: url("../images/6_l.png");
+}
+
+#content_6_r{
+    float: right;
+    height:567px;
+    width: 429px;
+    position: relative;
+}
+
+#content_6_r span{
+    position: absolute;
+    display: block;
+    top:367px;
+    left:162px;
+    width:103px;
+    height:32px;
+    text-align: center;
+    line-height:32px;
+    border:#e77b7d solid 1px;
+}
+#content_6_r span a{
+    font-size: 12px;
+    color: #e25c60;
+    font-family: 微软雅黑;
+}
+
+#content_6_r dd{
+    position: absolute;
+    height:20px;
+    width:103px;
+    top:165px;
+    left:163px;
+    background: url("../images/新世界.png");
+}
+
+#content_6_r dt{
+    position: absolute;
+    width:288px;
+    height:102px;
+    top:216px;
+    left:74px;
+    font-family: 宋体;
+    font-size: 12px;
+    line-height:30px;
+}
+
+#content_6_r_nav{
+    position: absolute;
+    top:426px;
+    left:186px;
+    height:12px;
+    width:100px;
+}
+#content_6_r_nav li{
+    float: left;
+    width:12px;
+    height:12px;
+    margin-right: 14px;
+    background: url("../images/6_r_1.png") ;
+}
+
+#content_6_r_nav .o_choose{
+    float: left;
+    width:11px;
+    height:12px;
+    margin-right: 14px;
+    background: url("../images/6_l_2.png") ;
+}
+
+#content_8{
+    height:751px;
+    width:1280px;
+    margin:0px auto ;
+    position: relative;
+}
+
+#con8_top{
+    display:block;
+    text-align: center;
+    margin:0px auto;
+}
+
+#con8_top h2{
+    margin-top: 113px;
+    color: rgb(50, 51, 51);
+    font: 21px/30px 黑体;
+}
+
+#con8_top hr{
+    width: 30px;
+    height: 2px;
+    margin: auto;
+    background-color: #e74f4d;
+}
+
+#con8_top p{
+    line-height: 18px;
+    margin: 12px 0 102px;
+    color: #aaa;
+}
+
+#con8_bottom{
+    display: block;
+    margin: 0 auto 165px;
+    overflow: hidden;
+}
+
+#con8_l{
+    width: 290px;
+    text-align: left;
+    float: left;
+}
+
+#con8_l dl{
+    width: 290px;
+    text-align: left;
+}
+
+#con8_l dt{
+    font: 14px/20px '黑体';
+    margin-bottom: 12px;
+    color: #231815;
+}
+
+#con8_l dd a{
+    padding-left: 16px;
+    color: #8d8c8c;
+    float: right;
+}
+
+#con8_r form{
+    margin-left: 75px;
+}
+
+footer{
+    width: 1280px;
+    height:414px;
+    margin:0 auto;
+    color: #d0d0d2;
+    background-color: #32353e;
+    position: relative;
+}
+
+footer .footer_top{
+    font: 22px/28px '微软雅黑';
+    position: absolute;
+    top:92px;
+    left:599px;
+}
+
+footer .footer_text{
+    font: 12px/20px '微软雅黑';
+    position: absolute;
+    top:123px;
+    left:406px;
+    width:468px;
+    height:30px;
+    text-align: center;
+}
+
+#footer_form{
+    width:511px;
+    height:41px;
+    position: absolute;
+    top:183px;
+    left:385px;
+}
+#footer_form .form_text{
+    width:413px;
+    height:38px;
+    float: left;
+    line-height: 40px;
+    padding-left:10px;
+}
+
+#footer_form .form_sub{
+    width:81px;
+    height:41px;
+    float: left;
+    background: #6f7278;
+    color: #fffdfd;
+    font:12px/22px '宋体';
+}
+
+footer ul{
+    position: relative;
+    top:261px;
+    left:550px;
+    height:25px;
+}
+
+footer ul li {
+    float: left;
+    height:25px;
+    width:24px;
+    margin-right: 53px;
+}
+
+.qq{
+    background: url("../images/qq_icon.png");
+}
+.sina{
+    background: url("../images/sina_icon.png");
+}
+.twitter{
+    background: url("../images/twitter_icon.png");
+}
+.budong{
+    background: url("../images/budong_icon.png");
+}
+
+footer .footer_bottom{
+    width:1280px;
+    height:58px;
+    margin:0px auto ;
+    background: #303039;
+    position:absolute;
+    bottom:0px;
+}
+footer .footer_bottom p{
+    height:12px;
+    margin:30px 0px 0px 100px;
+    font:12px/22px '宋体';
+
+}
+
+.footer_bottom a{
+    height:12px;
+    margin:30px 41px 0px 0px;
+    font:12px/22px '宋体';
+    color: #FFFFFF;
+}
+
+
+
+
+
+
